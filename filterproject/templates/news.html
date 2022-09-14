@@ -21,7 +21,7 @@ News
                     {{ record.created }}
                 </p>
                 <p>
-                    {{ record.text|truncatechars:50|censor }}
+                    {{ record.text|truncatechars:20|censor }}
                 </p>
             </li>
         {% endfor %}
